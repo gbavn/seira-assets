@@ -25,10 +25,9 @@
 .tabnarr{width:100%;margin:10px auto;border-radius:10px;border:1px solid var(--dark1);background:var(--dark);padding:10px;box-sizing:border-box;}
 .tabnarr br{display:none;}
 .tabhnarr{background:var(--grad1);border-radius:10px;padding:18px 20px 14px;border:1px solid var(--dark1);display:flex;flex-flow:column;align-items:center;gap:10px;text-align:center;}
-.tabhnarr-icon{width:64px;height:64px;background:var(--darkt,#11111160);border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
-.tabhnarr-icon i{font-size:32px;color:#fff;}
+.tabhnarr i{width:64px;height:64px;background:var(--darkt,#11111160);border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:32px;flex-shrink:0;}
 .tabhnarr h2{font-family:'Cinzel',serif;color:#fff;font-size:22px;font-weight:600;letter-spacing:3px;text-transform:uppercase;margin:0;line-height:130%;}
-.tabhnarr h4{font-family:'Poppins',sans-serif;color:#fff;font-size:11px;font-weight:300;letter-spacing:2px;text-transform:uppercase;margin:0;opacity:.7;line-height:1;}
+.tabhnarr h4{font-family:'Poppins',sans-serif;color:#fff;font-size:11px;font-weight:300;letter-spacing:2px;text-transform:uppercase;margin:0;opacity:.7;line-height:normal;}
 .tabbimage{width:100%;height:280px;border-radius:10px;border:1px solid var(--dark1);margin:10px 0;background-size:cover;background-position:50%;box-sizing:border-box;}
 .narrsepar{display:flex;align-items:center;gap:8px;margin:4px 0 10px;padding:0 4px;}
 .narrsepar::before,.narrsepar::after{content:'';flex:1;height:1px;background:var(--dark1);}
@@ -36,7 +35,6 @@
 .tabbnarr{padding:10px 14px 14px;color:var(--white1);text-align:justify;line-height:175%;font-family:'Poppins',sans-serif;font-size:13px;}
 .tabnarr .tabbnarr br{display:inline !important;}
 .tabnarr .tabbnarr p{margin:0;line-height:175%;}
-
 /* NPC */ 
 .cardnpc{width:100%;height:180px;margin:10px auto;border-radius:10px;border:1px solid var(--dark1);background:var(--dark);display:flex;flex-flow:row;align-items:center;gap:16px;padding:16px;box-sizing:border-box;overflow:hidden;}
 .cardnpc br{display:none;}
@@ -52,7 +50,6 @@
 .cardnpc-texto::-webkit-scrollbar-track{background:transparent;}
 .cardnpc-texto::-webkit-scrollbar-thumb{background:var(--dark1);border-radius:4px;}
 .cardnpc-texto::-webkit-scrollbar-thumb:hover{background:var(--accent1);}
-
 /* FiCHA DE PERSONAGEM */
 .tabficha { width:100%; min-height:500px; margin:10px auto; border-radius:10px; border:1px solid var(--dark1); background:var(--dark); padding:10px; font-size: 0.8125rem; }
 .tabficha br { display:none; } .fitext br { display:inline; }
