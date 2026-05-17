@@ -34,7 +34,8 @@
 .narrsepar::before,.narrsepar::after{content:'';flex:1;height:1px;background:var(--dark1);}
 .narrsepar span{width:5px;height:5px;background:var(--accent1);border-radius:50%;display:block;flex-shrink:0;}
 .tabbnarr{padding:10px 14px 14px;color:var(--white1);text-align:justify;line-height:175%;font-family:'Poppins',sans-serif;font-size:13px;}
-.tabbnarr br{display:inline;}
+.tabnarr .tabbnarr br{display:inline;}
+.tabnarr .tabbnarr p{margin:0;line-height:175%;}
 
 /* NPC */ 
 .cardnpc{width:100%;height:180px;margin:10px auto;border-radius:10px;border:1px solid var(--dark1);background:var(--dark);display:flex;flex-flow:row;align-items:center;gap:16px;padding:16px;box-sizing:border-box;overflow:hidden;}
@@ -45,7 +46,8 @@
 .cardnpc-nome h4{font-family:'Poppins',sans-serif;color:var(--white2);font-size:10px;font-weight:300;letter-spacing:1px;margin:4px 0 0;}
 .cardnpc-divider{width:100%;height:1px;background:var(--dark1);flex-shrink:0;}
 .cardnpc-texto{flex:1;overflow-y:auto;color:var(--white2);font-family:'Poppins',sans-serif;font-size:11px;line-height:170%;text-align:justify;}
-.cardnpc-texto br{display:inline;}
+.cardnpc .cardnpc-texto br{display:inline;}
+.cardnpc .cardnpc-texto p{margin:0;line-height:170%;}
 .cardnpc-texto::-webkit-scrollbar{width:3px;}
 .cardnpc-texto::-webkit-scrollbar-track{background:transparent;}
 .cardnpc-texto::-webkit-scrollbar-thumb{background:var(--dark1);border-radius:4px;}
