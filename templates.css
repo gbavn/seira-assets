@@ -9,6 +9,9 @@
 /* Perks */ 
 .tabbgen { padding:20px; color:var(--white1); text-align:justify; line-height:150%; font-family:var(--font1); font-size:13px;}
 .tabbgen h6 { background:var(--grad1); border-radius:5px; padding:10px; text-transform:uppercase; letter-spacing:1px; font-size:12px; margin:10px 0;}
+/* Título de seção dentro do bloco — Poppins bold com underline curto de acento. Escopo .tabgeneral para não afetar os nomes de fórum da home e vencer a regra antiga de .tabbgen h2 */
+.tabgeneral .tabbgen h2 { font-family:var(--font1); font-weight:700; font-size:17px; text-transform:none; letter-spacing:.2px; color:var(--white1); margin:16px 0 12px; padding-bottom:9px; position:relative; border-bottom:1px solid var(--dark2); }
+.tabgeneral .tabbgen h2::after { content:""; position:absolute; left:0; bottom:-1px; width:42px; height:2px; background:var(--accent1); border-radius:2px; }
 .tabbgen strong { color:var(--accent1); } .registrolist br { display: none;}
 .registrolist { display: flex; flex-flow: column; padding-left: 10px; gap: 5px; border-left: 5px solid var(--accent3); font-size:12px;}
 .registrolist pb { display:flex; gap:10px; } .registrolist pb i { color: var(--accent2);}
