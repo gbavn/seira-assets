@@ -112,7 +112,7 @@
 .tabpokepart p br{display:inline;}
 .tabpokepart p{font-size:13px;text-align:justify;padding:5px;font-family:var(--font1);}
 .tabpokepart h4{display:inline-flex;align-items:center;justify-content:space-between;gap:6px;margin:0px;padding:10px;border-radius:5px;background:var(--dark2);color:var(--white);font-size:16px;font-weight:800;font-family:var(--font1);}
-.tabpokebottom{display:flex;gap:10px;align-items:stretch;padding:10px;position:relative;}
+.tabpokebottom{display:flex;gap:10px;align-items:stretch;padding:10px;}
 .tabpokesidelabel{background:var(--groups);color:var(--white);border-radius:6px;font-size:18px;font-weight:800;writing-mode:vertical-rl;transform:rotate(180deg);display:flex;align-items:center;justify-content:space-between;padding:15px;min-width:40px;font-family:var(--font1);}
 .tabpokesidelabel i{font-size:30px;display:inline-block;transform:rotate(90deg);}
 .tabpoketraits{flex:1;display:flex;flex-direction:column;gap:10px;justify-content:space-between;}
@@ -126,10 +126,9 @@
 .tabpokestatus .tabpokestatname{color:var(--white);font-size:12px;text-transform:uppercase;letter-spacing:.04em;font-family:var(--font1);}
 .tabpokestatus .tabpokestatvalue{color:var(--groups);font-weight:800;font-size:18px;font-family:var(--font1);}
 
-/* BOTÃO DE ALTERNÂNCIA STATUS ↔ CONTEST (em cima do "livro") */
-.tabpoke-toggle{position:absolute;top:6px;left:6px;z-index:5;width:22px;height:22px;padding:0;display:flex;align-items:center;justify-content:center;border:none;border-radius:5px;cursor:pointer;background:rgba(0,0,0,.28);color:var(--white);opacity:.55;transition:opacity .15s ease,background .15s ease;}
-.tabpoke-toggle:hover{opacity:1;background:rgba(0,0,0,.5);}
-.tabpoke-toggle svg{width:14px;height:14px;display:block;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;}
+/* ALTERNÂNCIA STATUS ↔ CONTEST — o próprio "livro" (Traços) é o botão */
+.tabpokebottom.has-contest .tabpokesidelabel{cursor:pointer;transition:filter .15s ease;}
+.tabpokebottom.has-contest .tabpokesidelabel:hover{filter:brightness(1.12);}
 
 /* ATRIBUTOS DE CONTEST (mesmo grid dos status; escondido por padrão) */
 .tabpokecontest{display:none;gap:10px;justify-content:space-between;}
