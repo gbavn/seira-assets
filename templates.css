@@ -3,6 +3,8 @@
 .tabhgen { background:var(--grad1); border-radius:10px; padding:10px; border:1px solid var(--dark1);display: grid; grid-template-columns: 100px 1fr; grid-template-rows:100px; grid-column-gap: 20px; grid-row-gap: 0px; }
 .tabgeneral br { display:none;} .tabbgen br { display:inline; }
 .tabhgen i { grid-area: 1 / 1 / 2 / 2; background:var(--dark1); border-radius:10px; color:var(--accent1); display:flex; align-items:center; justify-content:center; font-size:60px;}
+.tabhgen h5 { grid-area: 1 / 2 / 2 / 3; margin:0; font-family:var(--font2); font-size:35px; color:var(--dark); display:flex; align-items:center; }
+.tabhgen h5 b { display:block; color:var(--white1); font-size:12px; font-family:var(--font1); font-weight:400; }
 .tabgeneral blockquote { border-left-color: var(--accent2);}
 .tabmods blockquote { border-left-color: var(--accent2);}
 
