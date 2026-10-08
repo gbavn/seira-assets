@@ -1,0 +1,225 @@
+/* Game Icons (fonte de icones). Os arquivos de fonte ficam nesta mesma pasta.
+   Uso: <i class="gmi gmi-police-badge"></i> ou qualquer elemento com .gmi e a classe do icone.
+   Icones de game-icons.net (CC BY 3.0). */
+@font-face {
+	font-family: "game-icons";
+	src: url('./game-icons.eot');
+	src: url('./game-icons.eot?#iefix') format('embedded-opentype'),
+		url('./game-icons.woff') format('woff'),
+		url('./game-icons.ttf') format('truetype');
+}
+
+.gmi:before {
+	font-family: "game-icons";
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+	text-transform: none;
+}
+
+.gmi-police-badge:before {
+	content: "\E001";
+}
+
+.gmi-pistol-gun:before {
+	content: "\E002";
+}
+
+.gmi-kevlar:before {
+	content: "\E003";
+}
+
+.gmi-balaclava:before {
+	content: "\E004";
+}
+
+.gmi-baton:before {
+	content: "\E005";
+}
+
+.gmi-famas:before {
+	content: "\E006";
+}
+
+.gmi-footsteps:before {
+	content: "\E007";
+}
+
+.gmi-glock:before {
+	content: "\E008";
+}
+
+.gmi-halt:before {
+	content: "\E009";
+}
+
+.gmi-kevlar-vest:before {
+	content: "\E00A";
+}
+
+.gmi-siren:before {
+	content: "\E00B";
+}
+
+.gmi-steel-door:before {
+	content: "\E00C";
+}
+
+.gmi-steyr-aug:before {
+	content: "\E00D";
+}
+
+.gmi-switchblade:before {
+	content: "\E00E";
+}
+
+.gmi-walther-ppk:before {
+	content: "\E00F";
+}
+
+.gmi-arrest:before {
+	content: "\E010";
+}
+
+.gmi-banging-gavel:before {
+	content: "\E011";
+}
+
+.gmi-chalk-outline-murder:before {
+	content: "\E012";
+}
+
+.gmi-convict:before {
+	content: "\E013";
+}
+
+.gmi-crime-scene-tape:before {
+	content: "\E014";
+}
+
+.gmi-custodian-helmet:before {
+	content: "\E015";
+}
+
+.gmi-donut:before {
+	content: "\E016";
+}
+
+.gmi-evasion:before {
+	content: "\E017";
+}
+
+.gmi-finger-print:before {
+	content: "\E018";
+}
+
+.gmi-flashlight:before {
+	content: "\E019";
+}
+
+.gmi-handcuffed:before {
+	content: "\E01A";
+}
+
+.gmi-id-card:before {
+	content: "\E01B";
+}
+
+.gmi-lock-picking:before {
+	content: "\E01C";
+}
+
+.gmi-megaphone:before {
+	content: "\E01D";
+}
+
+.gmi-mp5:before {
+	content: "\E01E";
+}
+
+.gmi-mug-shot:before {
+	content: "\E01F";
+}
+
+.gmi-police-car:before {
+	content: "\E020";
+}
+
+.gmi-police-officer-head:before {
+	content: "\E021";
+}
+
+.gmi-police-target:before {
+	content: "\E022";
+}
+
+.gmi-prisoner:before {
+	content: "\E023";
+}
+
+.gmi-robber-mask:before {
+	content: "\E024";
+}
+
+.gmi-robber:before {
+	content: "\E025";
+}
+
+.gmi-sherlock-holmes:before {
+	content: "\E026";
+}
+
+.gmi-sniffing-dog:before {
+	content: "\E027";
+}
+
+.gmi-spy:before {
+	content: "\E028";
+}
+
+.gmi-stun-grenade:before {
+	content: "\E029";
+}
+
+.gmi-tire-tracks:before {
+	content: "\E02A";
+}
+
+.gmi-traffic-lights-red:before {
+	content: "\E02B";
+}
+
+.gmi-walkie-talkie:before {
+	content: "\E02C";
+}
+
+.gmi-whistle:before {
+	content: "\E02D";
+}
+
+.gmi-window-bars:before {
+	content: "\E02E";
+}
+
+.gmi-arrow-scope:before {
+	content: "\E02F";
+}
+
+.gmi-flash-grenade:before {
+	content: "\E030";
+}
+
+.gmi-handcuffs:before {
+	content: "\E031";
+}
+
+.gmi-law-star:before {
+	content: "\E032";
+}
+
+.gmi-magnifying-glass:before {
+	content: "\E033";
+}
